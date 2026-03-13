@@ -1,10 +1,17 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
+// Main function
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name << endl;
-    return 0;
+    // Username variable
+    std::string name;
+    
+    // Name request
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    
+    // Otput
+    std::cout << "Hello world from " << name << std::endl;
+    
+    return 0; // Успешное завершение программы!
 }
